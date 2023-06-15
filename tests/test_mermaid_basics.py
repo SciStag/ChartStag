@@ -13,5 +13,5 @@ def test_version():
 
 def test_script():
     script_data = get_mermaid_script()
-    assert len(script_data) == 898905
-    assert hashlib.md5(script_data).hexdigest() == "07d4a62ba2e5b0e44077bd9b481fd75d"
+    assert len(script_data) == 2886654
+    assert hashlib.md5(script_data).hexdigest() == "64684ea52f2f27acaea3da510b42f487"
